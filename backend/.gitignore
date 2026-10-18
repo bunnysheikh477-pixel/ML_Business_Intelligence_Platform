@@ -1,0 +1,13 @@
+# Local environment configuration (contains credentials).
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Uploaded/generated storage
+storage/uploads/*
+!storage/uploads/.gitkeep
